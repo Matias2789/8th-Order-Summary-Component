@@ -1,0 +1,95 @@
+/*! Fuentes de texto */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+/*? Edit general*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body {
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*! Editar el contenido, FirstMovil */
+.container {
+    margin: 50px 15px 50px 15px;
+    /* height: 100vh; */
+    background-color: #fff;
+    border-radius: 1.5em;
+    width: 345px;
+    height: 569px;
+}
+img {
+    width: 100%;
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+}
+.content {
+    padding: 20px;
+}
+.titlecontent {
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 22px;
+}
+.textcontent {
+    text-align: center;
+    padding: 20px 15px 0 15px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    line-height: 1.75;
+}
+.offercontent {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 1em;
+}
+.offercontent img {
+    width: 50px;
+}
+.offercontent .price {
+    padding-top: 5px;
+    padding-left: 20px;
+    color: hsl(224, 23%, 55%);
+}
+.offercontent .price b {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.offercontent a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.payproceed {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 1em;
+    border-radius: 12px;
+    margin: 24px 0 12px 0;
+    box-shadow: 0px 5px 20px hsl(224, 23%, 55%);
+}
+.payproceed:hover {
+    background-color: #fff;
+    border: 1   px solid hsl(245, 75%, 52%);
+    color: hsl(245, 75%, 52%);
+}
+.cancel {
+    text-align: center;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+    padding: 1em;
+    border-radius: 12px;
+}
+.cancel:hover {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
